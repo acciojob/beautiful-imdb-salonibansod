@@ -1,2 +1,37 @@
+/* Style for the movie poster */
+.moviePic {
+    height: 400px;
+    width: 300px;
+    opacity: 0.9;
+    display: block;
+    margin: 20px auto; /* Center horizontally */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
+}
+
+/* Style for the movie description */
+.movieDetail {
+    position: relative;
+    top: 20px;
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark gray for readability */
+    background-color: #f9f9f9; /* Optional: Light background for emphasis */
+    padding: 10px 20px; /* Optional: Adds some spacing */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+/* Optional: General page styles for a cleaner look */
+body {
+    background-color: #eee; /* Soft gray background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 /* Your CSS Code here. */
